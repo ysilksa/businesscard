@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hello, I&#39;m Chisa! on Chisa Yan</title>
-    <link>http://localhost:1313/</link>
+    <link>https://ysilksa.github.io/businesscard/</link>
     <description>Recent content in Hello, I&#39;m Chisa! on Chisa Yan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2025 </copyright>
-    <lastBuildDate>Mon, 27 Oct 2025 19:01:05 -0500</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Oct 2025 19:01:05 -0500</lastBuildDate><atom:link href="https://ysilksa.github.io/businesscard/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
