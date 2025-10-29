@@ -5,7 +5,7 @@ draft = false
 
 +++
 <div style="display: flex; justify-content: center; margin-top: 20px;">
-  <img src="IsabellaYan.jpg"
+  <img src="/businesscard/IsabellaYan.jpg"
        alt="Chisa Yan"
        style="
          width:180px;
