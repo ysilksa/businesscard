@@ -23,6 +23,7 @@ body::before {
 Here are some of my favorite projects!
 
 <div class="projects-container" style="display: flex; flex-direction: row; justify-content: space-between; width: 52vw; ">
+
   <div class="project-card" style="padding: 16px; width: 30%;">
     <h3>Accessibility Map</h3>
     <p>A Rails app that allows users to rate the accessibility of local places.</p>
@@ -41,6 +42,7 @@ Here are some of my favorite projects!
     <p>Weather app made with Weather (by Api Dojo) API. Used to learn basic Angular.</p>
     <a href="https://github.com/ysilksa/angular-weatherapp" target="_blank">Source Code</a>
   </div>
+
 </div>
 
 <div class="projects-container" style="display: flex; flex-direction: row; justify-content: space-between; width: 52vw; ">
@@ -50,4 +52,5 @@ Here are some of my favorite projects!
     <p>UI developed for an Agentic AI application to recommend meals based on users' moods.</p>
     <a href="https://www.figma.com/design/imzRtPKvEhazSUgy3Evc2f/MoodMeals?node-id=1-6&t=nllMtfQdzPEayIZy-1" target="_blank">Figma File</a>
   </div>
+
 </div>
