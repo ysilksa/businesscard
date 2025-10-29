@@ -1,3 +1,3 @@
 User-agent: *
-Disallow: /
-Sitemap: http://localhost:1313/businesscard/sitemap.xml
+Allow: /
+Sitemap: https://ysilksa.github.io/businesscard/sitemap.xml
