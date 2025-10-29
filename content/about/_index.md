@@ -12,15 +12,16 @@ description = 'Learn more about my technical and non-technical skills.'
 
 <style>
 body {
-  background: url('/BluePastelSky.jpg') center/cover no-repeat fixed;
+  background: url('/businesscard/BluePastelSky.jpg') center/cover no-repeat fixed;
+  position: relative;
 }
 
 body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background: rgba(255, 255, 255, 0.7); /* 0.4 = 60% visible background */
-  z-index: -1; /* stay behind content */
+  background: rgba(255, 255, 255, 0.7);
+  z-index: -1;
 }
 </style>
 

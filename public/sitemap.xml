@@ -3,13 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://ysilksa.github.io/businesscard/</loc>
+    <loc>http://localhost:1313/businesscard/contact/</loc>
     <lastmod>2025-10-27T19:01:05-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://ysilksa.github.io/businesscard/about/</loc>
+    <loc>http://localhost:1313/businesscard/</loc>
+    <lastmod>2025-10-27T19:01:05-05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/businesscard/projects/</loc>
+    <lastmod>2025-10-27T19:00:54-05:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/businesscard/about/</loc>
     <lastmod>2025-10-27T19:00:37-05:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
