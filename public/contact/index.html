@@ -4,7 +4,7 @@
   dir="ltr"
   class="scroll-smooth"
   data-default-appearance="light"
-  data-auto-appearance="true"><head><script src="/businesscard/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=businesscard/livereload" data-no-instant defer></script>
+  data-auto-appearance="true"><head>
   <meta charset="utf-8">
   
     <meta http-equiv="content-language" content="en">
@@ -24,7 +24,7 @@
   
   
   
-  <link rel="canonical" href="http://localhost:1313/businesscard/contact/">
+  <link rel="canonical" href="https://ysilksa.github.io/businesscard/contact/">
   
     
       <link rel="alternate" type="application/rss+xml" href="/businesscard/contact/index.xml" title="Chisa Yan" />
@@ -35,7 +35,7 @@
   
 
   
-  <meta property="og:url" content="http://localhost:1313/businesscard/contact/">
+  <meta property="og:url" content="https://ysilksa.github.io/businesscard/contact/">
   <meta property="og:site_name" content="Chisa Yan">
   <meta property="og:title" content="Contact">
   <meta property="og:locale" content="en">
@@ -189,6 +189,12 @@
 
 
   
+  
+    
+
+
+
+
   
 
   
@@ -559,7 +565,53 @@
   <section class="mt-0 prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
     
     <div class="min-w-0 min-h-0 max-w-prose">
-      <p>You can reach me at [your.email@example.com] or through social media links below.</p>
+      <style>
+body {
+  background: url('/businesscard/BluePastelSky.jpg') center/cover no-repeat fixed;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.7);
+  z-index: -1;
+}
+</style>
+<p>You can reach out to me directly at <a
+  href="mailto:isabellayan2027@u.northwestern.edu">isabellayan2027@u.northwestern.edu</a> or through the contact form below.</p>
+<form 
+    action="https://api.web3forms.com/submit" 
+    method="POST"
+    style="display: flex; flex-direction: column; padding-top: 16px; gap: 16px;"
+>
+  <input type="hidden" name="access_key" value="a5072b0d-f2be-49f5-8821-80d46cd54c7c">
+  <input type="text" name="name" placeholder="Name" style="border-radius: 8px;" required>
+  <input type="email" name="email" placeholder="Email" style="border-radius: 8px;" required>
+  <textarea name="message" placeholder="Message" style="border-radius: 8px;" required></textarea>
+  <button type="submit" style="border-radius: 8px; padding: 16px; color: #FFFFFC; background-color: #9ECAE1;">Submit</button>
+</form>
+
+<h2 class="relative group">Other Links
+    <div id="other-links" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#other-links" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<ul>
+<li><a
+  href="https://www.linkedin.com/in/isabellayan814/"
+    target="_blank"
+  >LinkedIn</a></li>
+<li><a
+  href="https://github.com/ysilksa"
+    target="_blank"
+  >GitHub</a></li>
+</ul>
 
     </div>
   </section>
@@ -639,7 +691,7 @@
 <div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh] z-500"
-  data-url="http://localhost:1313/businesscard/">
+  data-url="https://ysilksa.github.io/businesscard/">
   <div
     id="search-modal"
     class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800">
